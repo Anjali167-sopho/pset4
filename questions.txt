@@ -1,19 +1,19 @@
-0.  TODO
-1.  TODO
-2.  TODO
-3.  TODO
-4.  TODO
-5.  TODO
-6.  TODO
-7.  TODO
-8.  TODO
-9.  TODO
-10. TODO
-11. TODO
-12. TODO
-13. TODO
-14. TODO
-15. TODO
-16. TODO
-17. TODO
-18. TODO
+
+0.  How many different colors does each format support?
+	BMP: 32 bit color ,over 4 billion
+	GIF: 8 bits, 256 colors
+	JPEG: 24 bits, 16.7 million
+	PNG: 24 bits, 16.7 million
+
+1.  Which format supports animation? 
+	GIF
+
+2.  What's the difference between lossy and lossless compression?
+		Lossy compression throws away some of the data in a file. 
+		Lossless uses an algorithm to compress a file that is reversible, hence, 
+		the quality of the file can move back and forth between the two states.
+		no data of the file is lost in loossless compression
+
+3.  Which of these formats is lossy-compressed?
+		JPEG
+
