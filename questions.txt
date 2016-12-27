@@ -16,4 +16,12 @@
 
 3.  Which of these formats is lossy-compressed?
 		JPEG
+		
+4.  What happens when a file is deleted from a FAT file system? FAT stands for
+	File Allocation Table; when a file is deleted, the information in the
+	address table is erased, but the file itself remains on the hard drive.
+
+5.  What can someone like you do to ensure (with high probability) that files you delete cannot be recovered? 
+	Delete files using a secure delete option. This will replace the section on disc with all zeroes.
+
 
