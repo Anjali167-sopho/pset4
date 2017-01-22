@@ -19,7 +19,7 @@ int main(void)
         return 2;
     }
     unsigned char buffer[BUFFER_SIZE];
-    int filecount = 0;
+    int count = 0;
 
     FILE* picture = NULL; 
     int jpg_found = 0; 
@@ -36,9 +36,9 @@ int main(void)
                jpg_found = 1;
             }
             char filename[8];
-            sprintf(filename, "%03d.jpg", filecount);
+            sprintf(filename, "%03d.jpg", count);
             picture = fopen(filename, "a");
-            filecount++;
+            count++;
          }
          if (jpg_found == 1)
         {
